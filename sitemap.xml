@@ -3,26 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://li-go.github.io/posts/my-first-post/</loc>
-    <lastmod>2019-08-25T15:58:39+09:00</lastmod>
+    <loc>https://li-go.github.io/tags/algorithm/</loc>
+    <lastmod>2019-08-26T15:52:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://li-go.github.io/posts/dynamic-programming/</loc>
+    <lastmod>2019-08-26T15:52:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://li-go.github.io/</loc>
-    <lastmod>2019-08-25T15:58:39+09:00</lastmod>
+    <lastmod>2019-08-26T15:52:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://li-go.github.io/posts/</loc>
+    <lastmod>2019-08-26T15:52:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://li-go.github.io/tags/</loc>
+    <lastmod>2019-08-26T15:52:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://li-go.github.io/posts/quick-sort/</loc>
+    <lastmod>2019-08-26T15:45:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://li-go.github.io/tags/go/</loc>
+    <lastmod>2019-08-25T15:58:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://li-go.github.io/posts/introduce-a-simple-file-server/</loc>
+    <lastmod>2019-08-25T15:58:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://li-go.github.io/tags/tool/</loc>
     <lastmod>2019-08-25T15:58:39+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://li-go.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://li-go.github.io/tags/</loc>
   </url>
   
 </urlset>
