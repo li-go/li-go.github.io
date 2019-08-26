@@ -26,13 +26,13 @@
     
 
     <meta property="og:title" content="Quick Sort" />
-<meta property="og:description" content="package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &gt;= r { return } p := partition(nums, l, r) quickSort(nums, l, p-1) quickSort(nums, p&#43;1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &lt; hi; j&#43;&#43; { if nums[j] &lt; nums[hi] { i&#43;&#43; nums[i], nums[j] = nums[j], nums[i] } } nums[i&#43;1], nums[hi] = nums[hi], nums[i&#43;1] return i &#43; 1 }  " />
+<meta property="og:description" content="package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &gt;= r { return } p := partition(nums, l, r) Quick(nums, l, p-1) Quick(nums, p&#43;1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &lt; hi; j&#43;&#43; { if nums[j] &lt; nums[hi] { i&#43;&#43; nums[i], nums[j] = nums[j], nums[i] } } nums[i&#43;1], nums[hi] = nums[hi], nums[i&#43;1] return i &#43; 1 }  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://li-go.github.io/posts/quick-sort/" />
 <meta property="article:published_time" content="2019-08-26T15:45:34+09:00" />
 <meta property="article:modified_time" content="2019-08-26T15:45:34+09:00" />
 <meta itemprop="name" content="Quick Sort">
-<meta itemprop="description" content="package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &gt;= r { return } p := partition(nums, l, r) quickSort(nums, l, p-1) quickSort(nums, p&#43;1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &lt; hi; j&#43;&#43; { if nums[j] &lt; nums[hi] { i&#43;&#43; nums[i], nums[j] = nums[j], nums[i] } } nums[i&#43;1], nums[hi] = nums[hi], nums[i&#43;1] return i &#43; 1 }  ">
+<meta itemprop="description" content="package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &gt;= r { return } p := partition(nums, l, r) Quick(nums, l, p-1) Quick(nums, p&#43;1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &lt; hi; j&#43;&#43; { if nums[j] &lt; nums[hi] { i&#43;&#43; nums[i], nums[j] = nums[j], nums[i] } } nums[i&#43;1], nums[hi] = nums[hi], nums[i&#43;1] return i &#43; 1 }  ">
 
 
 <meta itemprop="datePublished" content="2019-08-26T15:45:34&#43;09:00" />
@@ -44,7 +44,7 @@
 <meta itemprop="keywords" content="algorithm," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Quick Sort"/>
-<meta name="twitter:description" content="package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &gt;= r { return } p := partition(nums, l, r) quickSort(nums, l, p-1) quickSort(nums, p&#43;1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &lt; hi; j&#43;&#43; { if nums[j] &lt; nums[hi] { i&#43;&#43; nums[i], nums[j] = nums[j], nums[i] } } nums[i&#43;1], nums[hi] = nums[hi], nums[i&#43;1] return i &#43; 1 }  "/>
+<meta name="twitter:description" content="package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &gt;= r { return } p := partition(nums, l, r) Quick(nums, l, p-1) Quick(nums, p&#43;1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &lt; hi; j&#43;&#43; { if nums[j] &lt; nums[hi] { i&#43;&#43; nums[i], nums[j] = nums[j], nums[i] } } nums[i&#43;1], nums[hi] = nums[hi], nums[i&#43;1] return i &#43; 1 }  "/>
 
   </head>
 
@@ -129,8 +129,8 @@ func Quick(nums []int, l, r int) {
 		return
 	}
 	p := partition(nums, l, r)
-	quickSort(nums, l, p-1)
-	quickSort(nums, p+1, r)
+	Quick(nums, l, p-1)
+	Quick(nums, p+1, r)
 }
 
 // partition puts nums[hi] to its right place and return the index of it
