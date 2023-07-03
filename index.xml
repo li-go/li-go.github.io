@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Just A Gopher on A Gopher&#39;s Site</title>
-    <link>https://li-go.github.io/</link>
+    <link>https://sltc-li.github.io/</link>
     <description>Recent content in Just A Gopher on A Gopher&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Aug 2019 14:08:14 +0900</lastBuildDate>
     
-	<atom:link href="https://li-go.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sltc-li.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dijkstra Algorithm</title>
-      <link>https://li-go.github.io/posts/dijkstra-algorithm/</link>
+      <link>https://sltc-li.github.io/posts/dijkstra-algorithm/</link>
       <pubDate>Tue, 27 Aug 2019 14:08:14 +0900</pubDate>
       
-      <guid>https://li-go.github.io/posts/dijkstra-algorithm/</guid>
+      <guid>https://sltc-li.github.io/posts/dijkstra-algorithm/</guid>
       <description> To be built </description>
     </item>
     
     <item>
       <title>Dynamic Programming</title>
-      <link>https://li-go.github.io/posts/dynamic-programming/</link>
+      <link>https://sltc-li.github.io/posts/dynamic-programming/</link>
       <pubDate>Mon, 26 Aug 2019 15:52:27 +0900</pubDate>
       
-      <guid>https://li-go.github.io/posts/dynamic-programming/</guid>
+      <guid>https://sltc-li.github.io/posts/dynamic-programming/</guid>
       <description> To be built </description>
     </item>
     
     <item>
       <title>Quick Sort</title>
-      <link>https://li-go.github.io/posts/quick-sort/</link>
+      <link>https://sltc-li.github.io/posts/quick-sort/</link>
       <pubDate>Mon, 26 Aug 2019 15:45:34 +0900</pubDate>
       
-      <guid>https://li-go.github.io/posts/quick-sort/</guid>
+      <guid>https://sltc-li.github.io/posts/quick-sort/</guid>
       <description>package sort // Quick sorts nums from index l to r func Quick(nums []int, l, r int) { if l &amp;gt;= r { return } p := partition(nums, l, r) Quick(nums, l, p-1) Quick(nums, p+1, r) } // partition puts nums[hi] to its right place and return the index of it func partition(nums []int, lo, hi int) int { i := lo - 1 for j := lo; j &amp;lt; hi; j++ { if nums[j] &amp;lt; nums[hi] { i++ nums[i], nums[j] = nums[j], nums[i] } } nums[i+1], nums[hi] = nums[hi], nums[i+1] return i + 1 }  </description>
     </item>
     
     <item>
       <title>Introduce A Simple File Server</title>
-      <link>https://li-go.github.io/posts/introduce-a-simple-file-server/</link>
+      <link>https://sltc-li.github.io/posts/introduce-a-simple-file-server/</link>
       <pubDate>Sun, 25 Aug 2019 15:58:39 +0900</pubDate>
       
-      <guid>https://li-go.github.io/posts/introduce-a-simple-file-server/</guid>
-      <description> Install $ go get -u github.com/li-go/goserve  Usage $ goserve -h Usage of goserve: -dir string directory to host (default &amp;quot;.&amp;quot;) -disable-cache disable http cache -port int port to host (default 3000)  </description>
+      <guid>https://sltc-li.github.io/posts/introduce-a-simple-file-server/</guid>
+      <description> Install $ go get -u github.com/sltc-li/goserve  Usage $ goserve -h Usage of goserve: -dir string directory to host (default &amp;quot;.&amp;quot;) -disable-cache disable http cache -port int port to host (default 3000)  </description>
     </item>
     
   </channel>

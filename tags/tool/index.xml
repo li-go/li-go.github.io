@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tool on A Gopher&#39;s Site</title>
-    <link>https://li-go.github.io/tags/tool/</link>
+    <link>https://sltc-li.github.io/tags/tool/</link>
     <description>Recent content in tool on A Gopher&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Aug 2019 15:58:39 +0900</lastBuildDate>
     
-	<atom:link href="https://li-go.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sltc-li.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduce A Simple File Server</title>
-      <link>https://li-go.github.io/posts/introduce-a-simple-file-server/</link>
+      <link>https://sltc-li.github.io/posts/introduce-a-simple-file-server/</link>
       <pubDate>Sun, 25 Aug 2019 15:58:39 +0900</pubDate>
       
-      <guid>https://li-go.github.io/posts/introduce-a-simple-file-server/</guid>
-      <description> Install $ go get -u github.com/li-go/goserve  Usage $ goserve -h Usage of goserve: -dir string directory to host (default &amp;quot;.&amp;quot;) -disable-cache disable http cache -port int port to host (default 3000)  </description>
+      <guid>https://sltc-li.github.io/posts/introduce-a-simple-file-server/</guid>
+      <description> Install $ go get -u github.com/sltc-li/goserve  Usage $ goserve -h Usage of goserve: -dir string directory to host (default &amp;quot;.&amp;quot;) -disable-cache disable http cache -port int port to host (default 3000)  </description>
     </item>
     
   </channel>
